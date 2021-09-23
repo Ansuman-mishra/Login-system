@@ -53,7 +53,7 @@ export default function UpdateUser() {
                <div className="col-md-5">
                   <div className="card">
                      <div className="card-header bg-secondary text-white">
-                        <p className="h4">Update Product</p>
+                        <p className="h4">Update User</p>
                      </div>
                      <div className="card-body">
                         <form onSubmit={submitUser}>

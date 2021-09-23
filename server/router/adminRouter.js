@@ -17,8 +17,8 @@ router.get("/alluser", async (request, response) => {
 router.get("/alluser/:id", async (request, response) => {
    try {
       let userId = request.params.id;
-      let product = await User.findById(userId);
-      response.status(200).json(product);
+      let user = await User.findById(userId);
+      response.status(200).json(user);
    } catch (err) {
       console.error(err);
       response.status(500).json({
