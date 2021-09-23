@@ -1,0 +1,15 @@
+//login user
+export const LOGIN_USER_REQUEST = "LOGIN_USER_REQUEST";
+export const LOGIN_USER_SUCCESS = "LOGIN_USER_SUCCESS";
+export const LOGIN_USER_FAILURE = "LOGIN_USER_FAILURE";
+
+//Register user
+
+export const REGISTER_USER_REQUEST = "REGISTER_USER_REQUEST";
+export const REGISTER_USER_SUCCESS = "REGISTER_USER_SUCCESS";
+export const REGISTER_USER_FAILURE = "REGISTER_USER_FAILURE";
+
+//Get user information
+
+export const GET_USER_INFO = "GET_USER_INFO";
+export const LOGOUT = "LOGOUT";
